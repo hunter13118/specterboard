@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "war-council": {
+      "command": "node",
+      "args": ["D:/war-council/mcp-server/server.js"],
+      "env": {
+        "OLLAMA_BASE": "http://127.0.0.1:11434",
+        "REPO_ROOT": "D:/specterboard",
+        "GATEWAY_ENFORCEMENT": "medium",
+        "FORCE_WAR_TABLE": "1"
+      }
+    }
+  }
+}

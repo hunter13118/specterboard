@@ -1,0 +1,22 @@
+:root { color-scheme: dark; font-family: system-ui, sans-serif; background: #0b0f1a; color: #e2e8f0; }
+body { margin: 0; }
+.app { max-width: 480px; margin: 0 auto; padding: 1rem 1rem 2rem; }
+.hero { display: flex; justify-content: space-between; align-items: center; }
+h1 { margin: 0; font-size: 1.6rem; }
+.sub, .muted { color: #94a3b8; }
+.panel { background: #0f172a; border: 1px solid #334155; border-radius: 12px; padding: 1rem; margin: 0.75rem 0; }
+.field { display: flex; flex-direction: column; gap: 0.3rem; margin-bottom: 0.65rem; }
+input { padding: 0.6rem; border-radius: 8px; border: 1px solid #475569; background: #020617; color: #fff; }
+button { border: none; border-radius: 10px; padding: 0.7rem 1rem; font: inherit; cursor: pointer; }
+.primary { background: #7c3aed; color: #fff; font-weight: 600; }
+.secondary { background: #1e293b; color: #e2e8f0; border: 1px solid #475569; margin-top: 0.75rem; }
+.log-row { display: flex; align-items: center; justify-content: space-between; }
+.log-count { font-size: 2.4rem; font-weight: 800; margin: 0; }
+.log-btn { min-width: 4.5rem; min-height: 4.5rem; font-size: 1.5rem; }
+.streak { background: #312e81; padding: 0.4rem 0.8rem; border-radius: 999px; font-weight: 700; }
+.lb-list { list-style: none; padding: 0; margin: 0; }
+.lb-list li { display: flex; justify-content: space-between; padding: 0.45rem 0; border-bottom: 1px solid #1e293b; }
+.lb-list .is-user { color: #22d3ee; }
+blockquote { margin: 0.5rem 0 0; border-left: 3px solid #7c3aed; padding-left: 0.75rem; font-style: italic; }
+.error { color: #f87171; }
+.foot { text-align: center; font-size: 0.72rem; color: #64748b; margin-top: 1rem; }
