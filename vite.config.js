@@ -2,7 +2,10 @@ import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import { VitePWA } from "vite-plugin-pwa";
 
+const base = process.env.VITE_BASE_PATH || "/projects/specterboard/";
+
 export default defineConfig({
+  base,
   plugins: [
     react(),
     VitePWA({
@@ -13,8 +16,8 @@ export default defineConfig({
         theme_color: "#0b0f1a",
         background_color: "#0b0f1a",
         display: "standalone",
-        start_url: "/",
-        icons: [{ src: "/favicon.svg", sizes: "any", type: "image/svg+xml" }],
+        start_url: base,
+        icons: [{ src: `${base}favicon.svg`, sizes: "any", type: "image/svg+xml" }],
       },
     }),
   ],

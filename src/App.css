@@ -20,3 +20,6 @@ button { border: none; border-radius: 10px; padding: 0.7rem 1rem; font: inherit;
 blockquote { margin: 0.5rem 0 0; border-left: 3px solid #7c3aed; padding-left: 0.75rem; font-style: italic; }
 .error { color: #f87171; }
 .foot { text-align: center; font-size: 0.72rem; color: #64748b; margin-top: 1rem; }
+.gemini-bar { display: flex; gap: 0.5rem; align-items: center; flex-wrap: wrap; margin-bottom: 0.5rem; }
+.cap-badge { font-size: 0.72rem; padding: 0.2rem 0.5rem; border-radius: 999px; background: rgba(124,58,237,0.2); color: #ddd6fe; border: 1px solid rgba(124,58,237,0.35); }
+.gemini-bar .secondary { margin-top: 0; }
